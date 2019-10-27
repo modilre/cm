@@ -3,9 +3,6 @@
 
 @import "{{ site.theme }}";
 
-header {
-  display: none;
-}
-body {
+body > section.page-header {
   display: none;
 }
